@@ -14,7 +14,7 @@ features = []
 n_splits = 10
 seed = 7
 
-data = pd.read_csv("F:/Academic/ML/Eval/converters/tutorials/data_all.csv", encoding="utf-8")
+data = pd.read_csv("./../data/data_all.csv", encoding="utf-8")
 
 
 class SentenceGetter(object):
